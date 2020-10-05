@@ -150,11 +150,13 @@
 
 
 form {
-    padding: 10px;
+    padding: 15px;
     border-radius: 12px;
-    background: rgba(255, 137, 255, 0.733);
+    background: rgba(131, 131, 131, 0.671);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 72vh;
     box-shadow: 0px 0px 20px black;
 }
 
@@ -173,6 +175,11 @@ form {
 }
 /********************************/
 
+.form-control{
+    background-color: rgba(255, 255, 255, 0.514);
+    border: none;
+    height: 50px;
+}
 
 .group-textarea {
     max-width: 100%;
@@ -183,12 +190,13 @@ form {
 textarea {
     max-width: 100vw;
     border-radius: 5px;
-    border: 1px solid #CED4DA;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.514);
+    height: 130px;
 }
 
 .buttondemo {
     margin: 0 auto;
-    margin-top: 50px;
     padding: 10px 20px 10px 20px;
     font-size: 20px;
     border-radius: 8px;
