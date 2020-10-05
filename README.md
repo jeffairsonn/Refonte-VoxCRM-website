@@ -2,7 +2,7 @@
 
 Le site web avant : 
 
-![](img22.png)
+![](img2.png)
 
 Le site web après : 
 
