@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- ///////////////// Navbar ////////////////-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <img src="./image/logovox.png" alt="Logo Voxcrm" class="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fonctionnalités</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Coup d'oeil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tarifs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--///////////// Partie acceuil /////////////// -->
+
+    <section class="page_accueil">
+        <div class="row">
+            <div class="leftpart col-12 col-lg-7">
+                <h1 class="bigtitle">UNE SOLUTION DE GESTION <span class="important-word">SIMPLE</span> ET <span
+                        class="important-word">PERFORMANTE</span> POUR VOTRE CENTRE D'APPELS</h1>
+                <div class="blockargument">
+                    Gérez vos campagnes d'appels, gérez vos prises de rendez-vous et boostez votre
+                    marketing téléphonique !
+                </div>
+                <img src="./image/macos.png" alt="computer" class="computer">
+            </div>
+            <div class="rightpart col-12 col-lg-5">
+                <h2 class="formcontact">Obtenez une version d'essaie gratuite</h2>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label for="nom">Nom</label>
+                            <input type="text" class="form-control" placeholder="Nom" id="nom">
+                        </div>
+                        <div class="col">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" class="form-control" placeholder="Prénom" id="prenom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+                    <label for="telephone">Telephone</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pays</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">France (+33)</a>
+                                <a class="dropdown-item" href="#">Maroc (+212)</a>
+                                <a class="dropdown-item" href="#">Espagne (+32)</a>
+                            </div>
+                        </div>
+                        <input type="tel" class="form-control" aria-label="Text input with dropdown button"
+                            id="telephone" placeholder="Telephone"
+                            pattern="[1-9]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+                    </div>
+                    <div class="group-textarea">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button class="buttondemo">accéder à la version d'essaie</button>
+                </form>
+            </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////////-->
+    <!-- ///////////////////////////////////////////////////////////////////////-->
+    <!-- ///////////////////////////////////////////////////////////////////////-->
+    <!-- ///////////////////////////////////////////////////////////////////////-->
+    <!-- ///////////////////////////////////////////////////////////////////////-->
+    <!-- ///////////////////////////////////////////////////////////////////////-->
+
+    <section class="page_fonctionnalites">
+        <h3 class="title_fonctinnalite">Fonctionnalités</h3>
+        <div class="card_grp row">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="header-grp">
+                            <img src="./image/multicanal.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Multicanal</h5>
+                        </div>
+                        <p class="card-text">Profitez des possibilités multicanaux de VOXcrm. Créez vos modèles de
+                            mails,
+                            SMS ou Fax (format .eml). L’agent ou le superviseur pourra envoyer des Mails, SMS et Fax
+                            directement depuis son interface et même en cours de conversation.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/scrypting.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Scrypting</h5>
+                        </div>
+                        <p class="card-text">Réalisez vos scripts grâce à un éditeur de texte simple, intuitif et
+                            dynamique.
+                            Ne nécessite aucune programmation. Utilisez les nombreux types de variable (bouton radio,
+                            liste
+                            déroulante, case à cocher, etc). Insérez en toute simplicité des images, tableaux, liens,
+                            etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 salut">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/supervision.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Supervision</h5>
+                        </div>
+                        <p class="card-text">Pilotez en temps réel votre production. Programmez vos campagnes en
+                            mode
+                            prédictif, progressif, manuel ou test. Visualisez l’activité des agents (en ligne, en
+                            pause,
+                            etc.). Écoute, soufflage et chat. Importez vos fichiers au format csv, xlsx, txt.
+                            Dédoublonnage
+                            par fichier, campagne ou global. Exportez vos résultats avec de nombreux filtres.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 salut">
+                <div class="card_grp"></div>
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/interfaceagent.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Interface agent</h5>
+                        </div>
+                        <p class="card-text">VOXcrm permet à vos agents d’émettre et de recevoir des appels, de les
+                            statuer,
+                            et d’organiser ses rappels. De travailler de manière autonome en consultant leurs
+                            résultats en
+                            temps réel. D’avoir une productivité maximale grâce au filtrage automatique des appels.
+                            Seuls
+                            les appels décrochés leur sont transmis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 salut">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/agendapartage.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Agenda partagé</h5>
+                        </div>
+                        <p class="card-text">Organisez vos rendez-vous avec l’agenda intégré de VOXcrm. Grâce à une
+                            vue
+                            d’ensemble des disponibilités, gérez efficacement les plannings de vos commerciaux.
+                            L’agenda est
+                            partagé en temps réel entre vos agents, superviseur et commerciaux, avec les droits que
+                            vous
+                            attribuez à chacun.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 salut">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/postproduction.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Post-production</h5>
+
+                        </div>
+                        <p class="card-text">Un puissant module de post-production vous permet de visualiser
+                            immédiatement
+                            vos ventes ou vos rendez-vous. Vous pouvez appeler, confirmer vos RDV, extraire vos
+                            données et
+                            vos enregistrements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 salut">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/enregistrement.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Enregistrements</h5>
+                        </div>
+                        <p class="card-text">Enregistrement des conversations. Les enregistrements sont directement
+                            disponibles dans les CDR et la post-production. Vous pouvez les écouter et les
+                            télécharger
+                            immédiatement. Accès FTP aux enregistrements disponibles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 salut">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/statistique.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Statistiques</h5>
+                        </div>
+                        <p class="card-text">Analysez vos statistiques d’appels et mesurez la performance de vos
+                            agents. Par
+                            campagne, par téléopérateur, par équipe. Générez vos reporting en accédant à la base de
+                            données.
+                            Accès aux CDR détaillés.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-lg-4 salut">
+                <div class="card">
+                    <img class="card-img-top" src="image/screenshot1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-grp">
+                            <img src="./image/rotationsda.png" alt="image multicanal" class="imgfonctionnalite">
+                            <h5 class="card-title">Rotation des SDA</h5>
+                        </div>
+                        <p class="card-text">VOXcrm vous permet d’augmenter votre joignabilité et d’éviter au
+                            maximum les
+                            filtres anti-spam des opérateurs téléphoniques, en vous proposant une rotation de vos
+                            SDA
+                            (numéros affichés). Chaque prospect peut être appelé avec un numéro différent à chaque
+                            appel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

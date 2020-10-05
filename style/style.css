@@ -1,0 +1,259 @@
+/* Page d'acceuil */
+
+/* ///////////////bar de navigation//////////////////*/
+
+.navbar {
+    background: rgb(54, 54, 54) !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.logo {
+    max-width: 75px;
+}
+
+
+/* /////////////page d'acceuil////////////////////*/
+
+
+/**********************************/
+.page_accueil {
+    font-family: "rokkitt", Helvetica, Arial, sans-serif;
+    padding: 100px 20px 70px 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 44, 116, 0.692);
+    background-size: 100%;
+    height: 100%;
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    section {
+
+        padding: 140px 20px 70px 20px;
+        background-size: 100%;
+    }
+}
+
+@media (min-width: 1230px) {
+    section {
+        background-size: 100%;
+    }
+}
+/**********************************/
+
+
+/********************************/
+.bigtitle {
+    margin: 0 auto;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    margin-bottom: 22px;
+}
+
+@media (min-width: 768px) {
+    .bigtitle {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bigtitle {
+        text-align: start;
+        font-size: 39px;
+        margin-bottom: 10px;
+    }
+}
+/********************************/
+
+
+/********************************/
+.blockargument {
+    font-size: 20px;
+    color: rgb(182, 188, 194);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media (min-width: 768px) {
+    .blockargument {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blockargument {
+        text-align: start;
+        font-size: 24px;
+    }
+}
+/**********************************/
+
+
+/**********************************/
+.leftpart {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .leftpart {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+/**********************************/
+
+
+/********************************/
+.computer {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+    .computer {
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .computer {
+        max-width: 100%;
+        margin-top: 70px;
+    }
+}
+/********************************/
+
+
+/********************************/
+.rightpart {
+
+    align-self: center;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .rightpart {
+        align-self: flex-start;
+        padding-right: 100px;
+    }
+}
+/********************************/
+
+
+form {
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(255, 137, 255, 0.733);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+/********************************/
+.formcontact {
+    margin-top: 50px;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px black;
+}
+
+@media (min-width: 992px) {
+    .formcontact {
+        margin-top: auto;
+    }
+}
+/********************************/
+
+
+.group-textarea {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    max-width: 100vw;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+}
+
+.buttondemo {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #FFCA67;
+    border: none;
+}
+
+
+
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+
+.page_fonctionnalites{
+    padding-top: 0px;
+}
+
+
+.title_fonctinnalite {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.grp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/**************************************************$*/
+.card_grp {
+
+}
+/**************************************************$*/
+
+
+
+
+
+
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    height: 530px;
+}
+
+.imgfonctionnalite{
+    max-height: 70px;
+    position: absolute;
+    bottom: 94%;
+    right: 86%;
+
+}
